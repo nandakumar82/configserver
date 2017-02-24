@@ -1,0 +1,12 @@
+---
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nandakumar82/configdata
+#          uri: https://github.com/spring-cloud-samples/config-repo
+server:
+  port: 8888
